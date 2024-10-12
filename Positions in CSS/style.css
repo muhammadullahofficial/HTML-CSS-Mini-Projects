@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.parent {
+  background-color: bisque;
+  height: 1500px;
+  width: 1000px;
+  /*   margin-top: 10px;
+  margin-left: 10px; */
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+.child {
+  height: 100px;
+  width: 200px;
+  border: 1px solid black;
+  border-radius: 15px;
+  position: relative;
+}
+
+.box2 {
+  background-color: cornflowerblue;
+}
+
+.box3 {
+  background-color: brown;
+}
+
+.box4 {
+  background-color: hotpink;
+  position: absolute;
+  margin: 200px;
+}

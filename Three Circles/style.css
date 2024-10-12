@@ -1,0 +1,19 @@
+.box {
+display: inline-block;
+width: 100px;
+height: 100px;
+margin: 20px;
+border: 1px rgb(0, 0, 0) dotted;
+border-radius: 50px;
+
+}
+
+#div1 {
+    background-color: rgb(18, 216, 61);
+}
+#div2 {
+    background-color: rgb(240, 60, 60);
+}
+#div3 {
+    background-color: rgb(252, 248, 17);
+}

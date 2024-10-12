@@ -1,0 +1,20 @@
+.container {
+  height: 70vh;
+  width: 70vw;
+  background-color: bisque;
+  border: 2px solid black;
+}
+.item {
+  height: 30%;
+  width: 20%;
+  background-color: aquamarine;
+  border: 2px solid black;
+  transition: all 0.5s ease-in-out;
+}
+
+.item:hover {
+  background-color: green;
+  transform: translateX(80px);
+  border-radius: 50%;
+  translate: 100px 100px;
+}

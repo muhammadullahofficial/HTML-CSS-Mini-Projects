@@ -1,0 +1,27 @@
+.traffic-lights {
+    width: 105px;
+    height: 400px;
+    border-radius: 15px;
+    background-color: black;
+    margin: auto;
+}
+
+.red-light,
+.yellow-light,
+.green-light {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.yellow-light {
+    background-color: yellow;
+}
+
+.green-light {
+    background-color: green;
+}
+
+/* This code is written by Ayan */

@@ -1,0 +1,48 @@
+.parent {
+  background-color: aquamarine;
+  height: 600px;
+  width: 600px;
+  border: 2px solid black;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.header {
+  grid-column: 1/6;
+  background-color: white;
+  height: 45px;
+  text-align: center;
+  font-size: 25px;
+  border: 1px solid black;
+}
+
+.item {
+  background-color: #bf2626;
+  border: 2px solid black;
+  height: 504px;
+  width: 185px;
+  font-size: 20px;
+  color: white;
+}
+.item3 {
+  grid-column: 5/6;
+  background-color: #bf2626;
+  height: 504px;
+  width: 185px;
+  border: 2px solid black;
+  color: white;
+  font-size: 20px;
+}
+.footer {
+  grid-column: 1/6;
+  background-color: rgb(5, 31, 3);
+  grid-row: 3;
+  display: grid;
+  height: 40px;
+  align-self: end;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  border: 2px solid white;
+}
